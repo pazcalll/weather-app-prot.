@@ -1,0 +1,44 @@
+body{
+	background: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#aboutme{
+    margin-left: 100px;
+}
+.box{
+    margin-left: 100px;
+	margin-right: 100px;
+}
+.para{
+	margin-left: 300px;
+	margin-right: 50px;
+}
+img{
+	height: 250px;
+	width: 150px;
+	float:left;
+	margin-left: 100px;
+}
+fieldset{
+	border-color: red;
+	margin-left:100px;
+	margin-right:100px;
+}
+.pad{
+	background: gray;
+}
+table{
+	border: double;
+	border-color: red;
+}
+.dropdown{
+  display: none;
+  position: absolute;
+  background-color: blue;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+a.drop:hover .dropdown{
+	display: block;
+}
